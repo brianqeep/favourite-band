@@ -6,17 +6,19 @@ body{
   background-size: cover;
 }
 .header{
-  height: 80px;
+  height: 60px;
   background-color: #fff;
   border-radius: 6px;
+  font-family: helvetica sans-serif;
+  text-align: center;
 }
 .leftset{
-  margin-left: 40px;
   width:200px;
   height: 600px;
   background-color: #fff;
   border-radius: 6px;
   float: left;
+
 }
 .rightset{
   margin-left: 270px;
@@ -27,6 +29,9 @@ body{
 .logo{
 width: 300px;
 height: 250px;
+margin-left: 40px;
+margin-top: 40px;
+border-radius: 6px;
 float: left;
 }
 .title{
@@ -35,14 +40,40 @@ float: left;
   text-align: center;
 }
 ul{
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 li{
 display: inline;
-margin-left: 20px;
-padding-top: 12px;
+float: left;
 }
-a{
+li a{
+  display: block;
+  padding: 10px;
   text-decoration: none;
-
+  font-family: "bradley hand ITC", serif;
+  color: brown;
+  font-weight: 200;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  color: #0000fc;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: monospace;
+}
+.indetails{
+  margin-left: 380px;
+  margin-top: 50px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  font-family: monospace;
+  font-size: 12pt;
+}
+.footer{
+  background-color: #fff;
+  height: 40px;
+  border-radius: 6px;
 }

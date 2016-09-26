@@ -4,27 +4,28 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .header{
-  height: 60px;
-  background-color: #fff;
-  border-radius: 6px;
+  height: 100px;
+  background: url(../images/content.png) no-repeat center center fixed;
+  background-size: cover;
   font-family: helvetica sans-serif;
-  text-align: center;
 }
 .leftset{
   width:200px;
   height: 600px;
   background-color: #fff;
-  border-radius: 6px;
   float: left;
 
 }
 .rightset{
-  margin-left: 270px;
+  margin-left: 250px;
+  margin-right: 30px;
   height: 600px;
   background-color: #fff;
-  border-radius: 6px;
+  position: absolute;
 }
 .logo{
 width: 300px;
@@ -56,6 +57,7 @@ li a{
   color: brown;
   font-weight: 200;
   font-size: 20px;
+  margin-top: 30px;
 }
 h1 {
   text-align: center;
@@ -71,9 +73,32 @@ h1 {
   letter-spacing: 1.2px;
   font-family: monospace;
   font-size: 12pt;
+  font-family: arial, helvetica;
 }
 .footer{
+  background: url(../images/content.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 70px;
+  margin-top: 620px;
+}
+a:hover{
+  text-decoration: none;
+  color: green;
+}
+.foot{
+  text-align: center;
+  font-size: 14px;
+}
+.nav{
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-color: #fff;
+    margin-left: 40px;
+}
+.nav1{
+  height: 50px;
+  width: 50px;
   background-color: #fff;
-  height: 40px;
-  border-radius: 6px;
+  margin-left: 930px;
 }
